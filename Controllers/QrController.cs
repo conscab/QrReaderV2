@@ -35,7 +35,7 @@ namespace QR_Reader_v2.Controllers
             message.Content = content;
 
         
-            message.RequestUri = new Uri("http://goqr.me/api/doc/read-qr-code/");
+            message.RequestUri = new Uri("http://api.qrserver.com/v1/read-qr-code/");
 
             var client = new HttpClient();
 
